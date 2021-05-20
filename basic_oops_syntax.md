@@ -40,7 +40,7 @@ class Person {
 ### sub-class: the class that inherits properties and methods from another class, to fix ideas this is often called a child class;
 ### super-class: a class that is extended and that provides the basis for other classes to which it provides basic properties and methods, is often also called the parent class.
 
-Based on these concepts we define the concept of an animal with classes and then we create a dog
+### Based on these concepts we define the concept of an animal with classes and then we create a dog
 
 ```c++
 class Animal {
