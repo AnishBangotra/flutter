@@ -1,3 +1,3 @@
-## flutter lib/files
+## flutter lib files
 
 ### word pair generators in flutter using dart
