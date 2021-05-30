@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
   }
 }
 ```
-### The name of the stateless widget is MyApp which is being called from the runApp() and extends a stateless widget. Inside this MyApp a build function is overridden and takes BuildContext as a parameter. This BuildContext is unique to each and every widget. The widgets of a Flutter application are displayed in the form of a Widget Tree where we connect the parent and child widgets to show a relationship between them.
+### Here the name of the stateless widget is MyApp which is being called from the runApp() and extends a stateless widget. Inside this MyApp a build function is overridden and takes BuildContext as a parameter. This BuildContext is unique to each and every widget. The widgets of a Flutter application are displayed in the form of a Widget Tree where we connect the parent and child widgets to show a relationship between them.
 
 ### Let's check out an another one but by defining some constants and using them through constructor.
 
