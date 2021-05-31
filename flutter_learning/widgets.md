@@ -2,7 +2,7 @@
 
 ### let us understand the actual concept behind creating the widgets and the different type of widgets available in Flutter framework.
 
-## Stateless Widget
+## **Stateless Widget**
 
 ### The widgets whose state can not be altered once they are built are called stateless widgets. These widgets are immutable once they are built i.e any amount of change in the variables, icons, buttons, or retrieving data can not change the state of the app. Below is the basic structure of a stateless widget. Stateless widget overrides the build() method and returns a widget. For example, we use Text or the Icon is our flutter application where the state of the widget does not change in the runtime. It is used when the UI depends on the information within the object itself. Other examples can be Text, RaisedButton, IconButtons.
 
@@ -43,7 +43,7 @@ class MyHomePage extends StatelessWidget {
 Here, the build method calls the build method of Scaffold, which in turn calls the build method of AppBar and Center to build its user interface.
 
 
-## Stateful Widget
+## **Stateful Widget**
 
 ### The widgets whose state can be altered once they are built are called stateful Widgets. These states are mutable and can be changed multiple times in their lifetime. This simply means the state of an app can change multiple times with different sets of variables, inputs, data. Stateful widget overrides the createState() and returns a State. It is used when the UI can change dynamically. Some examples can be CheckBox, RadioButton, Form, TextField.
 Classes that inherit “Stateful Widget” are immutable. But the State is mutable which changes in the runtime when the user interacts with it.
