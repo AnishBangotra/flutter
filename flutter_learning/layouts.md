@@ -40,7 +40,7 @@ Center(
       ),  
     ),  
   ),  
-)
+);
 ```
 Here **Center** allows you to center the child widget within itself.
 
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(),  
     );  
   }  
-}  
+};  
 class MyHomePage extends StatelessWidget {  
   
   @override  
@@ -96,7 +96,7 @@ class MyHomePage extends StatelessWidget {
       ),  
     );  
   }  
-}  
+};  
 ```
 ### FittedBox: It scales and positions the child widget according to the specified fit.
 
