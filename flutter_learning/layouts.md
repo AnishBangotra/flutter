@@ -134,7 +134,7 @@ class MyApp extends StatelessWidget {
       home: MyHomePage(),  
     );  
   }  
-}  
+};  
 class MyHomePage extends StatelessWidget {  
   @override  
   Widget build(BuildContext context) {  
@@ -163,5 +163,5 @@ class MyHomePage extends StatelessWidget {
       ),  
     );  
   }  
-}  
+};  
 ```
