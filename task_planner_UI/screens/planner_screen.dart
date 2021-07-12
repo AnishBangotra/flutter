@@ -58,12 +58,6 @@ class _PlannerScreenState extends State<PlannerScreen> {
                   child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        // Text("My Tasks",
-                        //     style: TextStyle(
-                        //      color: Colors.black,
-                        //      fontSize: 40.0,
-                        //       fontWeight: FontWeight.bold,
-                        //     )),
                         //SizedBox(height: 10.0),
                         Text('Recent tasks',
                             style: TextStyle(
